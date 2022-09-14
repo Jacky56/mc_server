@@ -47,11 +47,10 @@ cron job:
 ```bash
 cd ~/minecraft
 wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_dump_save.sh
-crontab -e -u root
+vim /etc/crontab
 
 # copy the below in the crontab file
-*/15 * * * * ~/minecraft/cron_dump_save.sh
-
+*/15 * * * * root sh ~/minecraft/cron_dump_save.sh
 ```
 
 spark mod:
