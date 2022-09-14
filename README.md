@@ -11,6 +11,8 @@ Server IP address: `to be filled`
 
 https://www.linuxnorth.org/minecraft/modded_linux.html
 
+https://medium.com/@manbobo2012/host-a-minecraft-server-on-google-cloud-with-automatic-deployment-and-backup-f00d49a1a306
+
 env:
 ```bash
 sudo -s 
