@@ -13,6 +13,9 @@ https://www.linuxnorth.org/minecraft/modded_linux.html
 
 https://medium.com/@manbobo2012/host-a-minecraft-server-on-google-cloud-with-automatic-deployment-and-backup-f00d49a1a306
 
+https://feedthebeast.notion.site/How-do-I-setup-my-own-server-43b4c6b83f264dc6b2fb7a9566864ab0
+
+
 Always be in roto user:
 ```bash
 sudo -s
