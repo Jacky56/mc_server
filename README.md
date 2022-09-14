@@ -26,7 +26,7 @@ forged mod:
 sudo -s 
 cd ~/minecraft
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.1/forge-1.19.2-43.1.1-installer.jar
-java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
+java -jar forge-1.19.2-43.1.1-installer.jar --installServer
 ```
 
 mods:
