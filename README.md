@@ -49,7 +49,7 @@ cd ~/minecraft
 wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_dump_save.sh
 crontab -e -u root
 
-# copy the below in the cronjob file
+# copy the below in the crontab file
 */15 * * * * ~/minecraft/cron_dump_save.sh
 
 ```
