@@ -1,4 +1,13 @@
-# mc_server
+# mc_client
+
+Server IP address: `to be filled`
+
+1. install Minecraft v1.19.2 and run once
+1. download forge v1.19.2 mod [here](https://files.minecraftforge.net/net/minecraftforge/forge/)
+1. download mods [here](https://www.curseforge.com/minecraft/mc-mods)
+1. dump mods at `C:\Users\<user>\AppData\Roaming\.minecraft\mods`
+
+# mc_server 
 
 https://www.linuxnorth.org/minecraft/modded_linux.html
 
