@@ -36,3 +36,7 @@ wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_dump_save.sh
 */15 * * * * cron_dump_save.sh
 ```
 
+spark mod:
+```bash
+/spark profiler
+```
