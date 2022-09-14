@@ -17,7 +17,7 @@ env:
 ```bash
 sudo -s 
 apt update && apt -y upgrade
-apt install tmux wget openjdk-8-jdk default-jre unzip zip
+apt install tmux wget openjdk-17-jdk-headless default-jre unzip zip cron
 mkdir ~/minecraft && cd ~/minecraft
 ```
 
@@ -27,10 +27,12 @@ sudo -s
 cd ~/minecraft
 wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.1/forge-1.19.2-43.1.1-installer.jar
 java -jar forge-1.19.2-43.1.1-installer.jar --installServer
+rm forge-1.19.2-43.1.1-installer.jar
 ```
 
 mods:
 ```bash
+mkdir ~/minecraft/mods
 cd  ~/minecraft/mods
 wget https://ci.lucko.me/job/spark/336/artifact/spark-forge/build/libs/spark-1.9.36-forge.jar
 ```
@@ -43,8 +45,13 @@ sh run.sh nogui
 
 cron job:
 ```bash
+cd ~/minecraft
 wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_dump_save.sh
-*/15 * * * * cron_dump_save.sh
+crontab -e -u root
+
+# copy the below in the cronjob file
+*/15 * * * * ~/minecraft/cron_dump_save.sh
+
 ```
 
 spark mod:
@@ -52,3 +59,10 @@ spark mod:
 /spark profiler
 /spark profiler --stop
 ```
+
+tmux:
+```bash
+sudo -s
+tmux a
+```
+
