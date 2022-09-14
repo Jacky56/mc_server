@@ -13,9 +13,13 @@ https://www.linuxnorth.org/minecraft/modded_linux.html
 
 https://medium.com/@manbobo2012/host-a-minecraft-server-on-google-cloud-with-automatic-deployment-and-backup-f00d49a1a306
 
+Always be in roto user:
+```bash
+sudo -s
+```
+
 env:
 ```bash
-sudo -s 
 apt update && apt -y upgrade
 apt install tmux wget openjdk-17-jdk-headless default-jre unzip zip cron
 mkdir ~/minecraft && cd ~/minecraft
