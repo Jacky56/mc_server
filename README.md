@@ -6,7 +6,7 @@ env:
 ```bash
 sudo -s 
 apt update && apt -y upgrade
-apt install tmux wget openjdk-8-jdk default-jre
+apt install tmux wget openjdk-8-jdk default-jre unzip zip
 mkdir ~/minecraft && cd ~/minecraft
 ```
 
