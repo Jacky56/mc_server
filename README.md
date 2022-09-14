@@ -50,8 +50,8 @@ sh run.sh nogui
 cron job:
 ```bash
 cd ~/minecraft
-wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_dump_save.sh
-wget https://raw.githubusercontent.com/Jacky56/mc_server/main/cron_delete_old_save.sh
+wget https://raw.githubusercontent.com/Jacky56/potatoe-block-simulator/main/cron_dump_save.sh
+wget https://raw.githubusercontent.com/Jacky56/potatoe-block-simulator/main/cron_delete_old_save.sh
 vim /etc/crontab
 
 # copy the below in the crontab file
