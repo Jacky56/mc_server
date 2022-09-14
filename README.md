@@ -21,7 +21,10 @@ sudo -s
 env:
 ```bash
 apt update && apt -y upgrade
-apt install tmux wget openjdk-17-jdk-headless default-jre unzip zip cron
+apt install tmux wget unzip zip cron software-properties-common
+apt-add-repository 'deb http://security.debian.org/debian-security stretch/updates main'
+apt-get update
+apt-get install openjdk-17-jdk-headless default-jre 
 mkdir ~/minecraft && cd ~/minecraft
 ```
 
