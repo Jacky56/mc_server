@@ -2,6 +2,14 @@
 
 Server IP address: `34.89.50.224`
 
+## ftb revelations
+
+https://www.feed-the-beast.com/modpack/35_ftb_revelation/server-files
+
+download client, install ftb revelations-3.6.0
+
+## forge 1.19.2
+
 1. install Minecraft v1.19.2 and run once
 1. download forge v1.19.2 mod [here](https://files.minecraftforge.net/net/minecraftforge/forge/)
 1. download mods [here](https://www.curseforge.com/minecraft/mc-mods)
